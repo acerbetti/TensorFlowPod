@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   #s.source_files = 'AFNetworking/AFNetworking.h'
 
   s.ios.deployment_target = '9.2'
-  s.ios.vendored_library = 'TensorFlowBin/lib/*.a'
+  s.ios.vendored_library = 'TensorFlowPod/lib/*.a'
   
 end
