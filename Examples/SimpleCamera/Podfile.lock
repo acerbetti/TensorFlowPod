@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../../TensorFlowPod"
 
 SPEC CHECKSUMS:
-  TensorFlowPod: 04d841ae318a7dbd50e02806760e696e266584d7
+  TensorFlowPod: e3f1492ef1a1c30eafab165a93bcb220cf36f600
 
 PODFILE CHECKSUM: 8fab83b03d89be47d10a5a4ae7834203091ad365
 

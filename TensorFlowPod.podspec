@@ -20,8 +20,11 @@ Pod::Spec.new do |s|
   #s.ios.source_files = 'tensorflow/tensorflow/core/**/*.h'
 
   s.ios.header_mappings_dir = 'tensorflow'
-  s.ios.public_header_files = 'tensorflow/tensorflow/core/**/*.h', 'tensorflow/third_party/**/*.h', 'tensorflow/**/Tensor', \
-    'tensorflow/tensorflow/contrib/makefile/downloads/**/*.h', \
-    'tensorflow/tensorflow/contrib/makefile/gen/proto/**/*.h'
+  s.ios.preserve_paths = 'libraries/openssl-1.0.1e/include/openssl/*.h', 'libraries/openssl-1.0.1e/include/LICENSE'
+  s.ios.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../../../TensorFlowPod/include"' }
+  
+  #s.ios.public_header_files = 'tensorflow/tensorflow/core/**/*.h', 'tensorflow/third_party/**/*.h', 'tensorflow/**/Tensor', \
+  #  'tensorflow/tensorflow/contrib/makefile/downloads/**/*.h', \
+  #  'tensorflow/tensorflow/contrib/makefile/gen/proto/**/*.h'
   
 end
