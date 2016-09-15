@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48BBF1200B88253FB6002F5B /* libPods-SimpleCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D72C67FAC4538196AA7E0F7 /* libPods-SimpleCamera.a */; };
 		505C51E31D8A55DA00923FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C51E21D8A55DA00923FC0 /* main.m */; };
 		505C51E61D8A55DA00923FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C51E51D8A55DA00923FC0 /* AppDelegate.m */; };
 		505C51E91D8A55DA00923FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C51E81D8A55DA00923FC0 /* ViewController.m */; };
 		505C51EC1D8A55DA00923FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505C51EA1D8A55DA00923FC0 /* Main.storyboard */; };
 		505C51EE1D8A55DA00923FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505C51ED1D8A55DA00923FC0 /* Assets.xcassets */; };
 		505C51F11D8A55DA00923FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505C51EF1D8A55DA00923FC0 /* LaunchScreen.storyboard */; };
+		505C52031D8A57C000923FC0 /* imagenet_comp_graph_label_strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 505C52001D8A57C000923FC0 /* imagenet_comp_graph_label_strings.txt */; };
+		505C52041D8A57C000923FC0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 505C52011D8A57C000923FC0 /* LICENSE */; };
+		505C52051D8A57C000923FC0 /* tensorflow_inception_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 505C52021D8A57C000923FC0 /* tensorflow_inception_graph.pb */; };
+		505C520B1D8A586800923FC0 /* ios_image_load.mm in Sources */ = {isa = PBXBuildFile; fileRef = 505C52081D8A586800923FC0 /* ios_image_load.mm */; };
+		505C520C1D8A586800923FC0 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 505C520A1D8A586800923FC0 /* tensorflow_utils.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BAEE475855A21AA67FE4AEC /* Pods-SimpleCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCamera/Pods-SimpleCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		418E21E58472E95283FFF985 /* Pods-SimpleCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCamera/Pods-SimpleCamera.release.xcconfig"; sourceTree = "<group>"; };
+		4D72C67FAC4538196AA7E0F7 /* libPods-SimpleCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		505C51DE1D8A55DA00923FC0 /* SimpleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505C51E21D8A55DA00923FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		505C51E41D8A55DA00923FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,13 @@
 		505C51ED1D8A55DA00923FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505C51F01D8A55DA00923FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		505C51F21D8A55DA00923FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505C52001D8A57C000923FC0 /* imagenet_comp_graph_label_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imagenet_comp_graph_label_strings.txt; sourceTree = "<group>"; };
+		505C52011D8A57C000923FC0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		505C52021D8A57C000923FC0 /* tensorflow_inception_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = tensorflow_inception_graph.pb; sourceTree = "<group>"; };
+		505C52071D8A586800923FC0 /* ios_image_load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_image_load.h; sourceTree = "<group>"; };
+		505C52081D8A586800923FC0 /* ios_image_load.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ios_image_load.mm; sourceTree = "<group>"; };
+		505C52091D8A586800923FC0 /* tensorflow_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tensorflow_utils.h; sourceTree = "<group>"; };
+		505C520A1D8A586800923FC0 /* tensorflow_utils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = tensorflow_utils.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BBF1200B88253FB6002F5B /* libPods-SimpleCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3816D8D5E0CA242AA943C427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D72C67FAC4538196AA7E0F7 /* libPods-SimpleCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47135A529967DC8FDA99D199 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BAEE475855A21AA67FE4AEC /* Pods-SimpleCamera.debug.xcconfig */,
+				418E21E58472E95283FFF985 /* Pods-SimpleCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		505C51D51D8A55DA00923FC0 = {
 			isa = PBXGroup;
 			children = (
 				505C51E01D8A55DA00923FC0 /* SimpleCamera */,
 				505C51DF1D8A55DA00923FC0 /* Products */,
+				47135A529967DC8FDA99D199 /* Pods */,
+				3816D8D5E0CA242AA943C427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +94,7 @@
 		505C51E01D8A55DA00923FC0 /* SimpleCamera */ = {
 			isa = PBXGroup;
 			children = (
+				505C52061D8A586800923FC0 /* Utils */,
 				505C51E41D8A55DA00923FC0 /* AppDelegate.h */,
 				505C51E51D8A55DA00923FC0 /* AppDelegate.m */,
 				505C51E71D8A55DA00923FC0 /* ViewController.h */,
@@ -74,9 +111,31 @@
 		505C51E11D8A55DA00923FC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				505C51FF1D8A57C000923FC0 /* Data */,
 				505C51E21D8A55DA00923FC0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		505C51FF1D8A57C000923FC0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				505C52011D8A57C000923FC0 /* LICENSE */,
+				505C52001D8A57C000923FC0 /* imagenet_comp_graph_label_strings.txt */,
+				505C52021D8A57C000923FC0 /* tensorflow_inception_graph.pb */,
+			);
+			path = Data;
+			sourceTree = SOURCE_ROOT;
+		};
+		505C52061D8A586800923FC0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				505C52071D8A586800923FC0 /* ios_image_load.h */,
+				505C52081D8A586800923FC0 /* ios_image_load.mm */,
+				505C52091D8A586800923FC0 /* tensorflow_utils.h */,
+				505C520A1D8A586800923FC0 /* tensorflow_utils.mm */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 505C51F51D8A55DA00923FC0 /* Build configuration list for PBXNativeTarget "SimpleCamera" */;
 			buildPhases = (
+				8CBFB5CD61551D45C2C5CA31 /* [CP] Check Pods Manifest.lock */,
 				505C51DA1D8A55DA00923FC0 /* Sources */,
 				505C51DB1D8A55DA00923FC0 /* Frameworks */,
 				505C51DC1D8A55DA00923FC0 /* Resources */,
+				7417D719102A4DD8D9242F9D /* [CP] Embed Pods Frameworks */,
+				E56448F10A56ADA5ADE42ADB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +199,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505C52031D8A57C000923FC0 /* imagenet_comp_graph_label_strings.txt in Resources */,
+				505C52051D8A57C000923FC0 /* tensorflow_inception_graph.pb in Resources */,
 				505C51F11D8A55DA00923FC0 /* LaunchScreen.storyboard in Resources */,
 				505C51EE1D8A55DA00923FC0 /* Assets.xcassets in Resources */,
 				505C51EC1D8A55DA00923FC0 /* Main.storyboard in Resources */,
+				505C52041D8A57C000923FC0 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7417D719102A4DD8D9242F9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCamera/Pods-SimpleCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBFB5CD61551D45C2C5CA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E56448F10A56ADA5ADE42ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCamera/Pods-SimpleCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		505C51DA1D8A55DA00923FC0 /* Sources */ = {
@@ -151,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				505C51E91D8A55DA00923FC0 /* ViewController.m in Sources */,
+				505C520B1D8A586800923FC0 /* ios_image_load.mm in Sources */,
 				505C51E61D8A55DA00923FC0 /* AppDelegate.m in Sources */,
+				505C520C1D8A586800923FC0 /* tensorflow_utils.mm in Sources */,
 				505C51E31D8A55DA00923FC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +311,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -243,6 +359,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -268,6 +385,7 @@
 		};
 		505C51F61D8A55DA00923FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAEE475855A21AA67FE4AEC /* Pods-SimpleCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleCamera/Info.plist;
@@ -279,6 +397,7 @@
 		};
 		505C51F71D8A55DA00923FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E21E58472E95283FFF985 /* Pods-SimpleCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleCamera/Info.plist;
@@ -307,6 +426,7 @@
 				505C51F71D8A55DA00923FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

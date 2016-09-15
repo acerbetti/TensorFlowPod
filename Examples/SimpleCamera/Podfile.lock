@@ -1,0 +1,16 @@
+PODS:
+  - TensorFlowPod (0.1.0)
+
+DEPENDENCIES:
+  - TensorFlowPod (from `../../../TensorFlowPod`)
+
+EXTERNAL SOURCES:
+  TensorFlowPod:
+    :path: "../../../TensorFlowPod"
+
+SPEC CHECKSUMS:
+  TensorFlowPod: baf8f293a492ed9eba11cad006d52cf3366c9eb8
+
+PODFILE CHECKSUM: 8fab83b03d89be47d10a5a4ae7834203091ad365
+
+COCOAPODS: 1.0.1

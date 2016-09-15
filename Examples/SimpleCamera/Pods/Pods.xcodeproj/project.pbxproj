@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89907C17271DD57483895BF61A8AC13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8DDAF43405FF9927555F055055E3949F /* Pods-SimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC395FE239C1CD120800C7D6B81805 /* Pods-SimpleCamera-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08025B95305AE42B744AA113751A177E /* Pods-SimpleCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F0B967DFCD65EC46794B7E16DCD0111 /* libPods-SimpleCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C003994C3A4F6181E40E1AB2106D63 /* Pods-SimpleCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCamera-resources.sh"; sourceTree = "<group>"; };
+		6758EDE6BC31791CB2CE1E024B628274 /* libtensorflow-core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libtensorflow-core.a"; path = "TensorFlowPod/lib/libtensorflow-core.a"; sourceTree = "<group>"; };
+		89AC395FE239C1CD120800C7D6B81805 /* Pods-SimpleCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleCamera-dummy.m"; sourceTree = "<group>"; };
+		8F0FBDFB5EE7EEF5D3DB446CE4589B6B /* libprotobuf.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libprotobuf.a; path = TensorFlowPod/lib/libprotobuf.a; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946106C1316DFF711D75FED56863AA58 /* Pods-SimpleCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleCamera-frameworks.sh"; sourceTree = "<group>"; };
+		B59F91C4DCCE77978B155F66CD4C558E /* libprotobuf-lite.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libprotobuf-lite.a"; path = "TensorFlowPod/lib/libprotobuf-lite.a"; sourceTree = "<group>"; };
+		BEADA2CB2AB8B98F6E5776C444EA597E /* Pods-SimpleCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCamera.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE45515F704AB84AD8A7531539511B2F /* Pods-SimpleCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		FF238FCE55C62F2AE259667C87A160FD /* Pods-SimpleCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E976C0D58AC5F7F8A4F2FB2BEC0B0844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89907C17271DD57483895BF61A8AC13F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7727CF9DA8D6B774F38480F8CD91D455 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4504A26CF13DCC075450CED415C7825 /* Pods-SimpleCamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D7F723F1F8D425344A0125B6B675236 /* TensorFlowPod */ = {
+			isa = PBXGroup;
+			children = (
+				B2333ED31135F8C8E3037A68D08D79AA /* Frameworks */,
+			);
+			name = TensorFlowPod;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C05911182070147311EB34AF55DC24AE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B3E0C7749AD56211F26A07CD890592A1 /* Products */,
+				7727CF9DA8D6B774F38480F8CD91D455 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2333ED31135F8C8E3037A68D08D79AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F0FBDFB5EE7EEF5D3DB446CE4589B6B /* libprotobuf.a */,
+				B59F91C4DCCE77978B155F66CD4C558E /* libprotobuf-lite.a */,
+				6758EDE6BC31791CB2CE1E024B628274 /* libtensorflow-core.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3E0C7749AD56211F26A07CD890592A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B967DFCD65EC46794B7E16DCD0111 /* libPods-SimpleCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05911182070147311EB34AF55DC24AE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F723F1F8D425344A0125B6B675236 /* TensorFlowPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E4504A26CF13DCC075450CED415C7825 /* Pods-SimpleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				08025B95305AE42B744AA113751A177E /* Pods-SimpleCamera-acknowledgements.markdown */,
+				FF238FCE55C62F2AE259667C87A160FD /* Pods-SimpleCamera-acknowledgements.plist */,
+				89AC395FE239C1CD120800C7D6B81805 /* Pods-SimpleCamera-dummy.m */,
+				946106C1316DFF711D75FED56863AA58 /* Pods-SimpleCamera-frameworks.sh */,
+				66C003994C3A4F6181E40E1AB2106D63 /* Pods-SimpleCamera-resources.sh */,
+				FE45515F704AB84AD8A7531539511B2F /* Pods-SimpleCamera.debug.xcconfig */,
+				BEADA2CB2AB8B98F6E5776C444EA597E /* Pods-SimpleCamera.release.xcconfig */,
+			);
+			name = "Pods-SimpleCamera";
+			path = "Target Support Files/Pods-SimpleCamera";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63FD390AA20DC42EF62E90FE7288611 /* Pods-SimpleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117858497E909DCABA62B888CAE0B840 /* Build configuration list for PBXNativeTarget "Pods-SimpleCamera" */;
+			buildPhases = (
+				ACEF66AFAF8F172F6E6BA629500973EB /* Sources */,
+				E976C0D58AC5F7F8A4F2FB2BEC0B0844 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleCamera";
+			productName = "Pods-SimpleCamera";
+			productReference = 3F0B967DFCD65EC46794B7E16DCD0111 /* libPods-SimpleCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B3E0C7749AD56211F26A07CD890592A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63FD390AA20DC42EF62E90FE7288611 /* Pods-SimpleCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEF66AFAF8F172F6E6BA629500973EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAF43405FF9927555F055055E3949F /* Pods-SimpleCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		240BA7D45A44FF7EBB53E606C5C007DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEADA2CB2AB8B98F6E5776C444EA597E /* Pods-SimpleCamera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7CE00E6F168421F0168D31D6029FA180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE45515F704AB84AD8A7531539511B2F /* Pods-SimpleCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F594C655D48020EC34B00AA63E001773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117858497E909DCABA62B888CAE0B840 /* Build configuration list for PBXNativeTarget "Pods-SimpleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE00E6F168421F0168D31D6029FA180 /* Debug */,
+				240BA7D45A44FF7EBB53E606C5C007DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD87D359382A37B07149A12641B965 /* Debug */,
+				F594C655D48020EC34B00AA63E001773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
