@@ -2,7 +2,7 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TensorFlowPod"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../../TensorFlowPod/lib"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TensorFlowPod"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"protobuf" -l"protobuf-lite" -l"tensorflow-core"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"protobuf" -l"protobuf-lite" -l"tensorflow-core" -framework "Accelerate"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,1 @@
+../../../../../../../../../../../../../../../tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src/google/protobuf/stubs/platform_macros.h

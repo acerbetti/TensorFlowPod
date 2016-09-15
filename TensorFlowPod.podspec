@@ -9,11 +9,19 @@ Pod::Spec.new do |s|
   #s.source   = { :git => 'https://github.com/acerbetti/TensorFlowPod.git', :tag => s.version }
   s.platform = :ios
   s.requires_arc = false
-  
-  #s.public_header_files = 'AFNetworking/AFNetworking.h'
-  #s.source_files = 'AFNetworking/AFNetworking.h'
 
   s.ios.deployment_target = '9.2'
   s.ios.vendored_library = 'TensorFlowPod/lib/*.a'
+  s.ios.framework  = 'Accelerate'
+
+  #s.public_header_files = ''
+  #s.ios.source_files = 'downloads/**/*.h'
+  #s.ios.public_header_files = 'tensorflow/protobuf/src/**/*.h'
+  #s.ios.source_files = 'tensorflow/tensorflow/core/**/*.h'
+
+  s.ios.header_mappings_dir = 'tensorflow'
+  s.ios.public_header_files = 'tensorflow/tensorflow/core/**/*.h', 'tensorflow/third_party/**/*.h', 'tensorflow/**/Tensor', \
+    'tensorflow/tensorflow/contrib/makefile/downloads/**/*.h', \
+    'tensorflow/tensorflow/contrib/makefile/gen/proto/**/*.h'
   
 end
