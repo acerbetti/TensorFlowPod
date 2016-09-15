@@ -1,0 +1,5 @@
+platform :ios, '9.2'
+
+target 'SimpleCamera' do
+	pod 'TensorFlowPod', :path => '../../../TensorFlowPod'
+end

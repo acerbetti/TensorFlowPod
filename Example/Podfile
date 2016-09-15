@@ -1,5 +1,0 @@
-platform :ios, '9.2'
-
-target 'TensorFlowDemo' do
-	pod 'TensorFlowPod', :path => '../../TensorFlowPod'
-end
